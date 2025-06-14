@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us</title>
+  <style>
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+      .about-container {
+      background:url('./assets/photos/blur2.png');
+      color: white;
+      background-position: center;
+      padding: 50px;
+      border-radius: 30px;
+      width: 80%;
+      margin : 50px auto;
+    }
+  </style>
+</head>
+<body>
+<center>
+  <div class="about-container">
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Send</button>
+  </form>
+  </div>
+</center>
+
+</body>
+</html>
